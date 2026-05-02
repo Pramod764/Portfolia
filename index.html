@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pramod | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="cursor-glow"></div>
+
+    <nav>
+        <div class="logo">Pramod.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content reveal">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Pramod</h1>
+                <h2 class="role">MCA Student & Backend Developer</h2>
+                <p class="summary">Passionate about developing scalable software solutions, solving complex problems, and writing clean, efficient code.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <div class="blob-wrapper">
+                    <div class="blob"></div>
+                    <img src="profile.jpg" alt="Pramod" onerror="this.src='https://ui-avatars.com/api/?name=Pramod&size=400&background=0D1117&color=00ffcc'">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content reveal">
+                <div class="glass-card">
+                    <p>MCA student at RNS Institute of Technology with a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming.</p>
+                    <p>I have hands-on experience building backend applications using Python, SQL, and Node.js. I thrive in fast-paced environments where I can leverage my problem-solving skills to craft innovative and efficient software solutions.</p>
+                    <div class="personal-info">
+                        <div><i class="fas fa-map-marker-alt"></i> Bangalore</div>
+                        <div><i class="fas fa-language"></i> English, Kannada, Hindi</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title reveal">My Skills</h2>
+            <div class="skills-container reveal">
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">DBMS</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag soft">Problem Solving</span>
+                        <span class="tag soft">Ownership</span>
+                        <span class="tag soft">Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <div class="projects-grid reveal">
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <h3>Vanguard Tech Store</h3>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-desc">A modular Node.js e-commerce application with a structured and scalable architecture.</p>
+                    <ul class="project-bullets">
+                        <li>Implemented dependency management using npm for consistent environment setup.</li>
+                        <li>Designed a well-organized project structure, separating core logic and configurations.</li>
+                        <li>Built a foundation for scalable backend development for future API integrations.</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Node.js</span><span>JavaScript</span><span>npm</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h2 class="section-title reveal">Education & Certifications</h2>
+            <div class="timeline reveal">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Expected 2027</div>
+                    <h3>MCA (Master of Computer Applications)</h3>
+                    <h4>RNS Institute of Technology</h4>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2025</div>
+                    <h3>BCA (Bachelor of Computer Applications)</h3>
+                    <h4>OM Siddi Vinayak Degree College, Bidar</h4>
+                </div>
+            </div>
+
+            <h3 class="subsection-title reveal" style="margin-top: 3rem; text-align: center; color: var(--text-color);">Certifications</h3>
+            <div class="certifications-grid reveal">
+                <div class="cert-card glass-card">
+                    <i class="fab fa-google cert-icon"></i>
+                    <h4>Data Analysis Using Python</h4>
+                    <p>Coursera (Authorized by Google)</p>
+                    <span class="cert-date">Apr 2026</span>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fas fa-robot cert-icon"></i>
+                    <h4>GenAI Powered Data Analytics</h4>
+                    <p>Forage (EDA, Risk Profiling, AI Strategy)</p>
+                    <span class="cert-date">Nov 2025</span>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fas fa-chart-bar cert-icon"></i>
+                    <h4>Data Analytics Job Simulation</h4>
+                    <p>Deloitte via Forage</p>
+                    <span class="cert-date">Nov 2025</span>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fas fa-cloud cert-icon"></i>
+                    <h4>SAP Certified-Business Data Cloud</h4>
+                    <p>SAP</p>
+                    <span class="cert-date">Apr 2026 - 2027</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <div class="contact-container glass-card reveal">
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-info">
+                    <a href="mailto:princepramod848@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i> princepramod848@gmail.com
+                    </a>
+                    <a href="tel:6363811714" class="contact-item">
+                        <i class="fas fa-phone"></i> +91 6363811714
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/pramod" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Pramod764" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="mailto:princepramod848@gmail.com" class="btn primary-btn" style="margin-top: 2rem;">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pramod. Designed & Built with ❤️</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
